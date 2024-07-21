@@ -1,0 +1,14 @@
+[
+  {
+    "username": "jeffb",
+    "password": "123456",
+    "name": "Jeff Bezos",
+    "email": "jeff@example.com"
+  },
+  {
+    "username": "billg",
+    "password": "abcdef",
+    "name": "Bill Gates",
+    "email": "bill@example.com"
+  }
+]

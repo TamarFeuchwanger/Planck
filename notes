@@ -1,0 +1,16 @@
+Notes:
+
+General:
+
+1. Should use typescript.
+2. Pagination can be either API pagination or only client pagination.
+
+Frontend:
+
+1. I mixed regular css with tailwind. should be more uniform.
+2. I did it fast and didn't have enough time to do it like the figma and on the best way.
+3. Should use scss.
+4. Can do things more generic. example: create a generic card component, a generic button, etc...
+5. Should add validation to form fields... (not in the requirements)
+6. Should store user, maybe also products on a state managemnt ( redux, context) - especially for the bonus.
+7. In the figma, you ask to create an 'email' input, in the json file you have only 'username' and not email.
