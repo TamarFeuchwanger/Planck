@@ -38,9 +38,15 @@ export const ProductList = () => {
     }, [])
 
     const productsToShow = useMemo(() => {
-        return showOnlyWishlist
-            ? products.filter((product) => wishlist.includes(product.id))
-            : products
+        if (showOnlyWishlist) {
+            setCurrentPage(1)
+            return products.filter((product) => wishlist.includes(product.id));
+
+        }
+        else return products
+        // return showOnlyWishlist
+        //     ? products.filter((product) => wishlist.includes(product.id)) 
+        //     : products
     }, [products, showOnlyWishlist, wishlist]);
 
     const totalPages = useMemo(() => {
